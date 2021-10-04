@@ -61,7 +61,7 @@ img{
 }
 
 /*PARTE RESPONSIVE*/
-@media  screen and (max-width: 420px) {
+@media  screen and (max-width: 720px){
   *{
     margin: 0;
     padding: 0;
@@ -74,6 +74,13 @@ img{
     flex-direction: column;
     align-items: center;
   }
+  .row h1{
+    padding: 20px;
+  }
+  img{
+    height: 140px;
+  }
+
   #lezioni{
     background-color: #F2F2CD;
   }
@@ -81,6 +88,7 @@ img{
   #lezioni .row > .right{
    float: none;
    width: 90vw;
+   padding: 10px 0;
   }
 
   #steps .row > .left,
@@ -88,6 +96,7 @@ img{
   #steps .row > .right{
     float: none;
     width: 90vw;
+    padding: 10px 0;
   }
   #steps{
     padding: 10px;
@@ -98,6 +107,7 @@ img{
   #why .row > .third {
     width: 90vw;
     margin-top: 30px;
+    padding: 10px 0;
   }
   #why {
     background-color: #F2F2CD;
