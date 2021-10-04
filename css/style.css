@@ -61,7 +61,7 @@ img{
 }
 
 /*PARTE RESPONSIVE*/
-@media  screen and (max-width: 720px) {
+@media  screen and (max-width: 420px) {
   *{
     margin: 0;
     padding: 0;
@@ -75,7 +75,7 @@ img{
     align-items: center;
   }
   #lezioni{
-    background-color: teal;
+    background-color: #F2F2CD;
   }
   #lezioni .row > .left, 
   #lezioni .row > .right{
@@ -100,7 +100,7 @@ img{
     margin-top: 30px;
   }
   #why {
-    background-color: teal;
+    background-color: #F2F2CD;
   }
 
 }
